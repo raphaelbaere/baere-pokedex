@@ -1,0 +1,176 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('https://i.pinimg.com/736x/2b/3b/04/2b3b04771ccca26c3dd96d781b0117ca.jpg');
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center; 
+    background-color: white;
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 16px white;
+}
+
+header {
+    background-color: white;
+    width: 65%;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 16px white;
+}
+
+#title {
+    text-align: center;
+}
+
+#pokemon-card-section {
+    margin: 50px auto;
+}
+
+#pokemon-search-title {
+    margin: 10px;
+}
+
+#pokemon-search-input {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#pokemon-search-button {
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    font-style: italic;
+}
+
+#pokemon-card-container {
+    border: 1px solid black;
+    padding: 10px;
+    background-color:gold;
+    width: fit-content;
+}
+
+#pokemon-card {
+    border: 1px solid black;
+    width: fit-content;
+}
+
+#pokemon-card-header {
+    display: flex;
+    flex-direction: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#pokemon-card-name {
+    margin-top: 10px;
+    color: white;
+}
+
+#pokemon-card-desc {
+    color: white;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#pokemon-card-type1, #pokemon-card-type2 {
+    color: white;
+}
+
+#pokemon-card-type1 {
+    margin-right: 5px;
+}
+
+.fire {
+    background-color: red;
+}
+
+.bug {
+    background-color:chartreuse;
+}
+
+.grass {
+    background-color: green;
+}
+
+.dark {
+    background-color: dimgrey;
+}
+
+.electric {
+    background-color: #fbec5d;
+}
+
+.ground {
+    background-color: brown;
+}
+
+.water {
+    background-color: blue;
+}
+
+.ice {
+    background-color: aqua;
+}
+
+.ghost {
+    background-color: blueviolet;
+}
+
+.poison {
+    background-color: purple;
+}
+
+.steel {
+    background-color: grey;
+}
+
+.dragon {
+    background-color: cadetblue;
+}
+
+.fighting {
+    background-color: darkred;
+}
+
+.flying {
+    background-color: bisque;
+}
+
+.normal {
+    background-color: cornsilk;
+}
+
+.rock {
+    background-color:lightgray;
+}
+
+.fairy {
+    background-color:deeppink;
+}
+
+.psychic {
+    background-color: darksalmon;
+}
